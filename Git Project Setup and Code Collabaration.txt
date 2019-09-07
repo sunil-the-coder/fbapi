@@ -1,0 +1,90 @@
+1) Create comment controller with postID 
+2) When user post comment -> trigger email with content
+
+
+Layers
+
+	COntroller -> SErvice -> REpository
+
+	
+Entities:
+	Post
+	COmmnet
+	USer
+	
+
+
+
+Comment:
+	postId: 1,
+	comment: when is back ?
+	user: sunil
+	
+	1) Comment controller with service
+	
+		-> GEt alll coments for given post id
+		-> Update comment for the postID
+		-> Delete the comment
+		
+		
+		Add email trigger for comment post api.
+		
+
+1) Validattion
+2) Loggers - 
+3) Event Orgnization
+4) Group concept
+
+
+
+Dhanashree
+
+$ git clone https://github.com/sunil-the-coder/fbapi.git
+
+$ cd fbapi
+
+Import this project into eclipse as maven
+
+$ git checkout -b feature/mychanges
+
+Do your changes
+
+$ git status
+
+$ git commit -m ""
+
+$ git push
+
+
+If you want komal changes
+
+$ git pull origin feature/group-validation
+
+----------------------------------------------------------
+
+
+
+$ git checkout master -> Go to masteer branch
+
+$ git pull origin master -> Take all latest form master branch
+
+$ git checkout -b feature/group-validation -> Create new branch from master and switch to new branch
+
+
+Do all your changes
+
+$ git add .
+$ git commit -m "Added group contorller" -> add to your own local repo
+$ git push origin HEAD -> REmotely add to sunil repository
+
+
+-> Create Pull Request
+
+
+		
+
+Group:
+
+
+		
+		
